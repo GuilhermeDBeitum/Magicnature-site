@@ -8,3 +8,28 @@
 ![image](https://user-images.githubusercontent.com/54703843/133792091-3c80fa4a-3782-471d-999d-566bdc44d15f.png)
 
 ## https://magicnature.web.app/
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
