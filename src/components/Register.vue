@@ -2,9 +2,9 @@
   <v-app id="inspire">
     <v-row cols="12" md="12" class="back" no-gutters justify="center">
       <v-img src="..\assets\img\floresta.webp">
-        <v-container style="padding:40px">
-          <v-col cols="12" md="6" class="mx-auto black--text">
-            <v-img height="530" style="padding:58px">
+        <v-container style="padding: 40px">
+          <v-col cols="12" md="7" class="mx-auto black--text">
+            <v-img height="530" style="padding: 58px">
               <v-form
                 id="contato"
                 method="post"
@@ -20,7 +20,7 @@
                     <v-text-field
                       outlined
                       hide-details
-                      style="padding:3px"
+                      style="padding: 3px"
                       color="black"
                       background-color="white"
                       v-model="name"
@@ -37,7 +37,7 @@
                     <v-text-field
                       outlined
                       hide-details
-                      style="padding:3px"
+                      style="padding: 3px"
                       color="black"
                       v-model="email"
                       :rules="emailRules"
@@ -53,10 +53,11 @@
                     <v-text-field
                       outlined
                       hide-details
-                      style="padding:3px"
+                      style="padding: 3px"
                       color="black"
                       v-model="tel"
                       type="text"
+                      maxlength="12s"
                       onkeypress="return event.charCode >= 48 && event.charCode <= 57"
                       counter="12"
                       :rules="[
@@ -75,13 +76,13 @@
 
               <v-row cols="2" md="3" justify="center">
                 <v-btn
-                  style="color:white;"
+                  style="color: white"
                   height="40"
                   width="150"
                   :disabled="!valid"
                   color="success"
                   @click="validate"
-                  >Enviar</v-btn
+                  ><strong>Enviar</strong></v-btn
                 >
 
                 <v-snackbar

@@ -12,17 +12,11 @@
           touchless
           grow
         >
-          <h1 style="margin-left:20px">Magic Nature</h1>
+          <h1 style="margin-left: 20px">Magic Nature</h1>
 
-          <v-tab to="home" exact>
-            HOME
-          </v-tab>
-          <v-tab to="sobre">
-            SOBRE
-          </v-tab>
-          <v-tab to="cadastro">
-            CADASTRO
-          </v-tab>
+          <v-tab to="home" exact> <strong> HOME </strong> </v-tab>
+          <v-tab to="sobre"> <strong> SOBRE </strong></v-tab>
+          <v-tab to="cadastro"> <strong> CADASTRO </strong></v-tab>
         </v-tabs>
       </v-col>
     </v-row>
@@ -34,7 +28,7 @@
 
     <v-footer padless color="black" app height="50">
       <v-col class="text-center" cols="12">
-        <span style="color:white;">&copy; MAGIC Nature 2020.</span>
+        <span style="color: white">&copy; MAGIC Nature 2020.</span>
       </v-col>
     </v-footer>
   </v-app>
