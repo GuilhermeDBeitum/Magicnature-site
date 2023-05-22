@@ -1,4 +1,4 @@
-# magicnature-site
+# magicnature-site 🌿
 
 ## Preview
 
